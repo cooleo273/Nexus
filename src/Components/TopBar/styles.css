@@ -1,0 +1,27 @@
+li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+
+}
+ul{
+display: flex;
+    gap: 4rem;
+    float: right;
+    margin-right: 4rem;
+    align-items: center;
+}
+.topbar{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}

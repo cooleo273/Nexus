@@ -1,0 +1,20 @@
+h1,h2,h3,h4, p {
+    color: white;
+}
+
+.Hero-Section {
+    width: 40%;
+    font-size: 64px;    
+    text-align: center;
+}
+.Hero-Section-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+
+.Hero-Section span{
+    color: #6E8AF5;
+}

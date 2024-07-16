@@ -1,0 +1,28 @@
+.body-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13rem;
+}
+.image-container img {
+  width: 200px;
+  object-fit: cover;
+  transform: rotate(8deg);
+}
+.image-container {
+  width: 20rem;
+}
+
+.text-container {
+    width: 41%;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+
+}
+h1 {
+  font-size: 40px;
+}
+p {
+  font-size: 18px;
+}
