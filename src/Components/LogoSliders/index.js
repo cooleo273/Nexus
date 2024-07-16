@@ -13,25 +13,25 @@ function LogoSlider() {
   return (
     <div className="logos">
     <div className="logos-slide">
-      <img src={img} />
-      <img src={img1} />
-      <img src={img2} />
-      <img src={img3} />
-      <img src={img4} />
-      <img src={img5} />
-      <img src={img6} />
-      <img src={img7} />
+      <img src={img}  alt = "Financial"/>
+      <img src={img1} alt = "Financial"/>
+      <img src={img2} alt = "Financial"/>
+      <img src={img3} alt = "Financial"/>
+      <img src={img4} alt = "Financial"/>
+      <img src={img5} alt = "Financial"/>
+      <img src={img6} alt = "Financial"/>
+      <img src={img7} alt = "Financial"/>
 
     </div>
     <div className="logos-slide">
-    <img src={img} />
-      <img src={img1} />
-      <img src={img2} />
-      <img src={img3} />
-      <img src={img4} />
-      <img src={img5} />
-      <img src={img6} />
-      <img src={img7} />
+    <img src={img} alt = "Financial"/>
+      <img src={img1} alt = "Financial"/>
+      <img src={img2} alt = "Financial"/>
+      <img src={img3} alt = "Financial"/>
+      <img src={img4} alt = "Financial"/>
+      <img src={img5} alt = "Financial"/>
+      <img src={img6} alt = "Financial"/>
+      <img src={img7} alt = "Financial"/>
     </div>
   </div>
   )

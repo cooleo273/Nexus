@@ -4,7 +4,7 @@ import "./styles.css"
 function Button(props) {
   return (
     <div>
-        <button type="button">{props.name}</button>
+        <button type="button" >{props.name}</button>
     </div>
   )
 }

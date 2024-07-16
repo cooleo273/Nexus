@@ -1,0 +1,32 @@
+.investment-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;   
+
+}
+
+.body-container-three{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    width: 78%;
+    height: 595px;
+    background-color: #132450 !important;
+    border-radius: 40px;
+    
+}
+.body-container-three h1{
+    color: white;
+}
+.body-container-three p{
+    color: white;
+    line-height: 30px;
+}
+.investment-text-container{
+    width: 50%;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}

@@ -1,0 +1,26 @@
+.comment-body{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+
+.comment-body-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.comment-body-container h1{
+    color: #132451;
+    text-align: center;
+    width: 20%;
+    font-size: 32px;
+    margin-top: 5rem;
+}
+
+.comment-body-text{
+    display: flex;
+    justify-content: center;
+
+}

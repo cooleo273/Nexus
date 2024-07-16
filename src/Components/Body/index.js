@@ -3,6 +3,8 @@ import LogoSlider from "../LogoSliders";
 import img from "../../Assets/b808ea7dedf (3).png"
 import BodyContainer from "../BodyContainer";
 import "./styles.css"
+import Investment from "../Investment";
+import CommentBody from "../CommentBody";
 
 function Body() {
   return (
@@ -17,7 +19,10 @@ function Body() {
         bodyText="Explore a new era of financial opportunities with our extensive investment offerings. 
         At NEXUS, we act as your portal to enhanced investment performance. 
         We are dedicated to enhancing your financial path through personalized strategies and advanced expertise."
-        image={img}
+        image={img} 
+        Button="buttonStyle"
+        name="Learn More"
+        alt = "Financial"
       />
       <BodyContainer
         MainStyles = "body-container-two"
@@ -29,7 +34,13 @@ function Body() {
         We understand that every investor is unique, which is why we offer personalized investment plans tailored to your specific financial goals, risk tolerance, and timeline. 
         At NEXUS, transparency and accountability are core values—we believe in fostering trust by providing clear visibility into where your investments are allocated."
         image={img}
+        displayButton={false}
+        alt = "Financial"
       />
+      <Investment/>
+      
+      <CommentBody/>
+      
     </div>
   );
 }

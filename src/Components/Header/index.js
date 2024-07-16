@@ -27,6 +27,9 @@ function Header() {
         bodyText="Invest in stocks, options, and ETFs at your pace and commission-free.
                   Investing Disclosures"
         image={img}
+        name="Learn More"
+        Button="LearnMore"
+        alt = "Financial"
       />
     </div>
   );
