@@ -1,0 +1,48 @@
+.body-container{
+    background-color: white !important;
+    
+}
+
+.bodyContainer h1{
+    color: #132450;
+}
+.bodyContainer p{
+    color: #132450;
+}
+.text-container {
+    width: 41%;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+
+}
+
+.body-container {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    gap: 13rem;
+    margin-top: 2rem;
+  }
+
+  .body-container .image-container img{
+    transform: rotate(0);
+  }
+
+  .body-container-two {
+    display: flex;
+    flex-direction: row-reverse ;
+    align-items: center;
+    justify-content: center;
+    gap: 13rem;
+    margin-top: 8rem;
+  }
+  .body-container-two .image-container img{
+    transform: rotate(0);
+  }
+
+
+  .main-body{
+    background-color: white;
+  }

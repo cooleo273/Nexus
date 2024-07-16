@@ -11,8 +11,8 @@ import "./styles.css"
 
 function LogoSlider() {
   return (
-    <div class="logos">
-    <div class="logos-slide">
+    <div className="logos">
+    <div className="logos-slide">
       <img src={img} />
       <img src={img1} />
       <img src={img2} />
@@ -23,7 +23,7 @@ function LogoSlider() {
       <img src={img7} />
 
     </div>
-    <div class="logos-slide">
+    <div className="logos-slide">
     <img src={img} />
       <img src={img1} />
       <img src={img2} />

@@ -4,8 +4,10 @@ import "./styles.css"
 
 const BodyContainer = (props)=>{
     return(
-        <div className="body-container">
-            <div className="text-container">
+        <div className={props.MainStyles}>
+
+            <div className={props.BodyContainer}>
+            <h3>{props.subtitle}</h3>
             <h1>{props.title}</h1>
             <p>{props.bodyText}</p>
             <Button name="Learn More"/>
