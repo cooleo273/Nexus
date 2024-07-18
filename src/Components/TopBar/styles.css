@@ -55,6 +55,9 @@ nav svg{
     .topbar li{
         font-size: 14px;
     }
+    nav svg{
+        display: none;
+    }
 }
 
 @media (max-width: 520px){

@@ -10,7 +10,7 @@
     color: white ;
 }
 .body-container-three p{
-    color: white ;
+    color: white !important;
     line-height: 30px;
 }
 .investment-text-container{
@@ -38,5 +38,9 @@
 @media (max-width:520px){
     .investment-container {
         margin-top: 6rem;
+    }
+    .body-container-three p{
+        color: #132450 !important;
+        line-height: 30px;
     }
 }
