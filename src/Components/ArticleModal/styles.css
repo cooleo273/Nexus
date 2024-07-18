@@ -19,3 +19,24 @@
     line-height: 27px;
     color: white;
 }
+
+@media (max-width: 1024px){
+    .article-modal img {
+        width: 200px;
+        border-radius: 10px;
+        mix-blend-mode: luminosity;
+    }
+    .article-modal{
+        
+        width: 200px;
+        
+    }
+    .article-modal h4{
+        font-size: 13px;
+        line-height: 20px;
+        color: white;
+    }
+    
+    
+    
+}

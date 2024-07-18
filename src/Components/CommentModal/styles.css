@@ -34,10 +34,10 @@
 
     
 }
-@media (min-width: 1024px){
+@media (max-width: 1024px){
     .comment-modal{
         width: 18rem;
-        height: 20rem;
+        height: 22rem;
         background-color: #D7F2FF;
         padding: 1.5rem;
         border-radius: 20px;
@@ -52,21 +52,17 @@
     }
     .comment-body-container h1{
         font-size: 24px !important;
+        width: 33% !important;
     }
 
     .image-name h4{
-        font-size: 15px;
+        font-size: 13px;
 
     }
     .image-name p{
         font-size: 12px;
         font-weight: 500;
     }
-    .comment-body{
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    margin-top: 5rem;
-}
+    
     
 }

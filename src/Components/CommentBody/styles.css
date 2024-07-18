@@ -24,11 +24,12 @@
     justify-content: center;
 
 }
-@media (min-width: 1024px){
+@media (max-width: 1024px){
     .comment-body{
-        display: flex;
-        gap: 30px;
-        justify-content: center;
-        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        PADDING: 3REM;
+        justify-items: center;
+        margin-top: 0rem;
     }
 }

@@ -15,12 +15,13 @@
     height: 55rem;
 }
 .svg-container{
-    position: absolute;
-    left: 71%;
-    top: 50%;
-    transform: translate(-38%, -21%);
-    width: 44rem;
-    height: 17rem;
+  position: absolute;
+  left: 71%;
+  top: 50%;
+  transform: translate(-38%, -12%);
+  width: 44rem;
+  height: 17rem;
+
     
 }
 .body-containers {
@@ -37,12 +38,7 @@
 
   @media (max-width: 1024px) {
     .svg-container {
-      position: absolute;
-      left: 69%;
-      top: 64%;
-      transform: translate(-38%, -21%);
-      width: 30rem;
-      height: 27rem;
+      display: none;
   
      }
      .body-containers {
