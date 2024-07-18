@@ -1,12 +1,23 @@
-h1,h2,h3,h4, p {
-    color: white;
+.animate-class {
+  opacity: 1;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 0.5s ease;
 }
 
+.animate-class.animate {
+  opacity: 0;
+  transform: translateY(0);
+}
+
+
 .Hero-Section {
+    
     width: 40%;
     font-size: 64px;    
     text-align: center;
+    color: white;
 }
+
 .Hero-Section-Container{
     display: flex;
     justify-content: center;
@@ -17,4 +28,16 @@ h1,h2,h3,h4, p {
 
 .Hero-Section span{
     color: #6E8AF5;
+}
+@media (max-width: 1024px) {
+   .Hero-Section {
+        width: 60%;
+        font-size: 50px;
+    }
+    .Hero-Section-Container{
+      
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+  }
+  
 }

@@ -1,5 +1,17 @@
+@keyframes slideOutIn {
+  from{
+    opacity: 0;
+    transform: translateX(300px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
 .Header-Container{
-    background-color: #132450;
+    background-image: url('../../Assets/stock-chart-background.jpg');
     height: 55rem;
 }
 .svg-container{
@@ -9,16 +21,43 @@
     transform: translate(-38%, -21%);
     width: 44rem;
     height: 17rem;
+    
 }
 .body-containers {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 13rem;
-    background-color: #132450 !important;
   }
 
 .LearnMore{
     background-color: white;
     color: #132450;
   }
+
+  @media (max-width: 1024px) {
+    .svg-container {
+      position: absolute;
+      left: 69%;
+      top: 64%;
+      transform: translate(-38%, -21%);
+      width: 30rem;
+      height: 27rem;
+  
+     }
+     .body-containers {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7rem;
+  }
+    .Header-Container{
+      height: 50rem;
+    }
+    .LearnMore{
+      background-color: white;
+      color: #132450;
+      width: 12rem;
+    }
+ }
+

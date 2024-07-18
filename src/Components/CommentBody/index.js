@@ -1,6 +1,6 @@
 import React from 'react'
 import CommentModal from '../CommentModal'
-import img from "../../Assets/b808ea7dedf (2).png"
+import img from "../../Assets/tachina-lee--wjk_SSqCE4-unsplash (1).jpg"
 import "./styles.css"
 
 function CommentBody() {

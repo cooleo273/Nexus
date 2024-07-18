@@ -1,12 +1,14 @@
 import React from 'react'
 import "./styles.css"
 import Button from '../Button'
+import img from "../../Assets/photo_2024-07-09_23-06-30.jpg"
 
 
 function TopBar() {
   return (
     <div className='topbar'>
-      <img src="http://placeholders.it/" alt="placeholder"/>
+      <img src={img} alt="placeholder"/>
+      <p>NEXUS</p>
       <nav>
         <ul>
           

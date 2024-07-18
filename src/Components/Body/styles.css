@@ -3,8 +3,12 @@
     
 }
 
-.bodyContainer h1{
-    color: #132450;
+
+#why-choose-us .bodyContainer h1{
+    color: #132450  ;
+}
+#about-us .bodyContainer h1{
+  color: #132450  ;
 }
 .bodyContainer p{
     color: #132450;
@@ -14,6 +18,7 @@
     display: flex;
     gap: 25px;
     flex-direction: column;
+    color: white;
 
 }
 
@@ -55,7 +60,7 @@
     height: 17rem;
   }
 
-   .buttonStyle{
+.buttonStyle{
     background-color: #132450;
     color: white;
     border: none;
@@ -65,4 +70,21 @@
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+  }
+
+  @media (min-width: 1024px){
+    .buttonStyle{
+      background-color: #132450;
+      color: white;
+      border: none;
+      text-align: center;
+      text-decoration: none;
+      display: flex;
+      font-size: 12px;
+      cursor: pointer;
+      width: 12rem;
+      height: 39px;
+      justify-content: center;
+      align-items: center;
+    }
   }

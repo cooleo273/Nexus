@@ -1,10 +1,19 @@
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  margin: 0; /* Remove default margin */
+   /* Full viewport height */
+       
   
 
 }
 
 code {
   font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
 }

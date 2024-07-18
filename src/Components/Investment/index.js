@@ -1,10 +1,28 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import BodyContainer from '../BodyContainer'
 import img from "../../Assets/b808ea7dedf (4).png"
 import "./styles.css"
 
 function Investment() {
+  const scrollToInvestment = () => {
+    const aboutUsSection = document.getElementById("investment");
+    if (aboutUsSection) {
+      aboutUsSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  
+  // Handle smooth scroll when component mounts
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash === "#investment") {
+      scrollToInvestment();
+    }
+  }, []);
+  
+  
+  
   return (
+    <section id="investment">
     <div className='investment-container'>
         <BodyContainer 
         MainStyles = "body-container-three"   
@@ -20,6 +38,7 @@ function Investment() {
         />
         
     </div>
+    </section>
   )
 }
 

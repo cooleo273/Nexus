@@ -1,9 +1,11 @@
-.image-name img{
+.image-name img {
     width: 40px;
     height: 40px;
-    border-radius: 50% ;
-
+    border-radius: 50%; 
+    object-fit: cover;
+    mix-blend-mode: luminosity;/* Creates a circle if width and height are equal */
 }
+
 .text-area p {
     color: #132450;
 }
@@ -25,10 +27,46 @@
     height: 22rem;
     background-color: #D7F2FF;
     padding: 2rem;
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     gap: 1.5em;
 
+    
+}
+@media (min-width: 1024px){
+    .comment-modal{
+        width: 18rem;
+        height: 20rem;
+        background-color: #D7F2FF;
+        padding: 1.5rem;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    
+    }
+    .text-area p{
+        color:#132450;
+        font-size: 12px;
+    }
+    .comment-body-container h1{
+        font-size: 24px !important;
+    }
+
+    .image-name h4{
+        font-size: 15px;
+
+    }
+    .image-name p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .comment-body{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 5rem;
+}
     
 }
