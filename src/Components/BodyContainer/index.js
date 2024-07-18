@@ -34,7 +34,9 @@ const BodyContainer = (props) => {
         <h3>{props.subtitle}</h3>
         <h1>{props.title}</h1>
         <p>{props.bodyText}</p>
+        <div className='button-container'>
         {props.displayButton ?? <button className={props.Button}>{props.name}</button>}
+        </div>
       </div>
       <div className="image-container">
         <img src={props.image} alt={props.imageAlt} />

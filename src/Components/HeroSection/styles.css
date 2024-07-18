@@ -41,3 +41,13 @@
   }
   
 }
+@media (max-width: 520px){
+    .Hero-Section {
+      font-size: 30px;
+      color: #132450;
+    }
+    .Hero-Section-Container {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+  }
+}

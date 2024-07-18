@@ -112,3 +112,16 @@
     font-size: 20px;
   }
 }
+
+@media (max-width: 520px) {
+  .footer-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 3rem 4rem 3rem;
+    gap: 2rem;
+  }
+  .logo-container{
+    width: 80%;
+  }
+}

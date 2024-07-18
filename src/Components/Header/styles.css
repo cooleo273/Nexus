@@ -57,3 +57,17 @@
     }
  }
 
+ @media (max-width: 520px){
+  .Header-Container{
+    background-image: none;
+    background-color: #D7F2FF;
+    height: 39rem;
+}
+.LearnMore{
+  background-color: #132450;
+      color: white;
+      width: 15rem;
+      height: 2.5rem;
+
+}
+ }
