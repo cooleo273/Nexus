@@ -22,13 +22,13 @@
 
 @media (max-width: 1024px){
     .article-modal img {
-        width: 200px;
+        width: 300px;
         border-radius: 10px;
         mix-blend-mode: luminosity;
     }
     .article-modal{
         
-        width: 200px;
+        width: 100%;
         
     }
     .article-modal h4{

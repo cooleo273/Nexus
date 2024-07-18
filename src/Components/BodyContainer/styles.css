@@ -18,19 +18,16 @@
   width: 20rem;
   display: flex;
   justify-content: center;
-  
 }
 
 .text-container {
-    width: 41%;
-    display: flex;
-    gap: 25px;
-    flex-direction: column;
-    
-
+  width: 41%;
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
 }
 
-.body-container-three{
+.body-container-three {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -41,6 +38,7 @@
   background-color: #132450 !important;
   border-radius: 40px;
 }
+
 h1 {
   font-size: 40px;
 }
@@ -49,136 +47,126 @@ p {
   line-height: 30px !important;
 }
 
-h3{
-  font-size:24px;
+h3 {
+  font-size: 24px;
   font-weight: bold;
-  color:#132450 !important;
+  color: #132450 !important;
 }
 
 @media (max-width: 1024px) {
-  .text-container{
+  .text-container {
     width: 60%;
   }
-  .text-container h1{
+  .text-container h1 {
     font-size: 26px;
   }
-  .text-container p{
+  .text-container p {
     font-size: 14px;
   }
-  .body-container.animate-class{
+  .body-container.animate-class {
     display: flex;
     gap: 7rem;
   }
-  .body-containers.animate-class{
+  .body-containers.animate-class {
     display: flex;
     gap: 7rem;
   }
-  .body-container-three{
-    
+  .body-container-three {
     gap: 1rem;
-   
+
     width: 85%;
     height: 35rem;
     background-color: #132450 !important;
-    
   }
-    .body-container-three.animate-class{
-      
-        gap: 1rem ;
-        width: 85%;
-        height: 30rem;
-        background-color: #132450 !important;
-        
-        
-}
-.image-container {
-  width: 12rem;
-  display: flex;
-  justify-content: center;
-}
+  .body-container-three.animate-class {
+    gap: 1rem;
+    width: 85%;
+    height: 30rem;
+    background-color: #132450 !important;
+  }
+  .image-container {
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+  }
   .image-container img {
     width: 150px;
     object-fit: cover;
     transform: rotate(8deg);
   }
 
-  .body-container-two{
+  .body-container-two {
     display: flex !important;
     gap: 3rem !important;
-
+    margin-top: 4rem !important;
   }
-  .body-container{
+  .body-container {
     display: flex !important;
     gap: 1rem !important;
-    
   }
-  .bodyContainer p{
+  .bodyContainer p {
     font-size: 12px;
   }
 
-  .bodyContainer h1{
-    font-size:20px;
+  .bodyContainer h1 {
+    font-size: 20px;
   }
-  .bodyContainer h3{
-    font-size:20px;
+  .bodyContainer h3 {
+    font-size: 20px;
   }
 }
 
 @media (max-width: 520px) {
   .animate-class {
-    opacity: 1;
-    transform: translateY(0);
-    
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    transition: none !important;
   }
   
+
   .animate-class.animate {
-    opacity: 1;
-    transform: translateY(0);
+    opacity: 1 !important;
+    transform: translateY(0) !important;
   }
-  .image-container{
+  .image-container {
     display: none;
   }
-  .text-container{
+  .text-container {
     width: 75% !important;
   }
-  .text-container h1{
+  .text-container h1 {
     color: #132450;
+    font-size: 20px;
   }
-  .text-container p{
+  .text-container p {
     color: #132450;
+    line-height: 21px !important;
+    font-weight: 400;
   }
-  .button-container{
+  .button-container {
     display: flex;
     justify-content: center;
   }
-  
-  .body-container-three{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
-    justify-content: center;
+
+  .body-container-three {
+   gap: 1rem;
     width: 85%;
-    height: 35rem;
-    background-color: #D7F2FF !important;
-    border-radius: 40px;
+    height: 26rem;
+    background-color: #d7f2ff !important;
+    border-radius: 20px;
   }
-    .body-container-three.animate-class{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 1rem ;
-        justify-content: center;
-        width: 85%;
-        height: 35rem;
-        background-color: #D7F2FF !important;
-        border-radius: 40px;
-        
-}
-.body-container-three h1 {
-  color: #132450 !important;
-}
-.body-container-three p {
-  color:  #132450 !important;
-}
+  .body-container-three.animate-class {
+    
+    gap: 1rem;
+    width: 85%;
+    height: 26rem;
+    background-color: #d7f2ff !important;
+    border-radius: 20px;
+  }
+  .body-container-three h1 {
+    color: #132450 !important;
+  }
+  .body-container-three p {
+    color: #132450 !important;
+  }
 }

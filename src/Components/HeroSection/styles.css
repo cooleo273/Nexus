@@ -44,6 +44,7 @@
 @media (max-width: 520px){
     .Hero-Section {
       font-size: 30px;
+      width: 70%;
       color: #132450;
     }
     .Hero-Section-Container {

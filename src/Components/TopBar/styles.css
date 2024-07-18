@@ -75,4 +75,7 @@ nav svg{
         display: block !important;
         width: 3rem;
     }
+    .topbar{
+        padding-right: 2rem;
+    }
 }

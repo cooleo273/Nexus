@@ -20,27 +20,19 @@
     flex-direction: column;
 }
 
-@media (max-width: 1024){
-    .body-container-three.animate-class{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 30px;
-        justify-content: center;
-        width: 60%;
-        height: 20rem;
-        background-color: #132450 !important;
-        border-radius: 40px;
-        
-    }
-}
+
 
 @media (max-width:520px){
     .investment-container {
-        margin-top: 6rem;
+        margin-top: 2rem;
     }
     .body-container-three p{
         color: #132450 !important;
         line-height: 30px;
+        width: 100%;
+    }
+    .investment-text-container{
+        width: 80% ;
+        
     }
 }

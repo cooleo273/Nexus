@@ -34,6 +34,7 @@
 .LearnMore{
     background-color: white;
     color: #132450;
+    border: none;
   }
 
   @media (max-width: 1024px) {
@@ -61,7 +62,7 @@
   .Header-Container{
     background-image: none;
     background-color: #D7F2FF;
-    height: 39rem;
+    height: 35rem;
 }
 .LearnMore{
   background-color: #132450;

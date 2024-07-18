@@ -88,3 +88,9 @@
       align-items: center;
     }
   }
+
+  @media (max-width: 520px){
+    .bodyContainer.investment-text-container{
+      width: 80%;
+    }
+  }
