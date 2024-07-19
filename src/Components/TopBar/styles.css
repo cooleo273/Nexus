@@ -124,7 +124,7 @@ nav svg{
     }
     nav svg{
         display: block !important;
-        width: 3rem;
+        width: 2rem;
     }
     .topbar{
         padding-right: 2rem;
@@ -151,5 +151,5 @@ nav svg{
     top: 1rem;
     right: 2rem;
     cursor: pointer;
-    width: 3rem;
+    width: 2rem;
   }
