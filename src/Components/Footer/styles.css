@@ -45,7 +45,7 @@
 
 .svg-content {
   position: absolute;
-  top: 238rem;
+  top: 242rem;
   left: -22rem;
   width: 38rem;
   height: 28rem;
@@ -54,8 +54,8 @@
 }
 
 .svg-content svg {
-  width: max-content;
-  height: max-content;
+  width: fit-content;
+  height: fit-content;
 }
 .logo-container img {
   width: 35px;
@@ -124,4 +124,10 @@
   .logo-container{
     width: 80%;
   }
+}
+
+@media (min-width: 1440px) {
+    .svg-content {
+      display: none !important;
+    }
 }

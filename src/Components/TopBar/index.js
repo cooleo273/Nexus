@@ -21,9 +21,9 @@ function TopBar() {
       <nav>
         <ul>
           <li><a href="#about-us">About Us</a></li>
-          <li>Why Choose Us</li>
-          <li>Services</li>
-          <li>Contact</li>
+          <li><a href="#why-choose-us" >Why Choose Us</a></li>
+          <li><a href="#articles" >Articles</a></li>
+          <li><a href="#contact">Contact</a></li>
           <Button name="Login" />
         </ul>
         <svg
@@ -76,8 +76,8 @@ function TopBar() {
             <ul>
             <li><a href="#about-us" onClick={closeModal}>About Us</a></li>
               <li><a href="#why-choose-us" onClick={closeModal}>Why Choose Us</a></li>
-              <li>Services</li>
-              <li>Contact</li>
+              <li><a href="#articles" onClick={closeModal}>Articles</a></li>
+              <li><a href="#contact" onClick={closeModal}>Contact</a></li>
             </ul>
           </div>
         </div>

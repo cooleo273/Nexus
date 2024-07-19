@@ -72,3 +72,15 @@
 
 }
  }
+
+ @media (min-width: 1900px){
+  .svg-container {
+    display: none;
+  }
+  .Header-Container{
+    background-image: url('../../Assets/stock-chart-background.jpg');
+    height: 65rem;
+  }
+  
+
+ }

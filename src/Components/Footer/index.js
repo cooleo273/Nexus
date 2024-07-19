@@ -4,7 +4,7 @@ import img from "../../Assets/photo_2024-07-09_23-06-30.jpg"
 
 function Footer() {
   return (
-    <div className="footer-container">
+    <div id="contact" className="footer-container">
       <div className="svg-content">
         <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
           <path

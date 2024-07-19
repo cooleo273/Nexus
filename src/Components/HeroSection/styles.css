@@ -52,3 +52,12 @@
       margin-bottom: 2rem;
   }
 }
+@media (min-width: 1440px){
+   .Hero-Section {
+    width: 45%;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+   
+}

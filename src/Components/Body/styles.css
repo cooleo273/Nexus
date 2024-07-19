@@ -89,4 +89,14 @@
     }
   }
 
-  
+  @media (max-width: 520px){
+    .buttonStyle{
+      
+     
+      font-size: 12px;
+      cursor: pointer;
+      width: 15rem;
+      height: 2.5rem;
+     
+    }
+  }

@@ -5,7 +5,7 @@ import "./styles.css"
 
 function Articles() {
   return (
-    <div className='article-modal-container'>
+    <div id='articles' className='article-modal-container'>
         <div className='article-title'>
         <h2> Our Latest articles</h2>
         </div>
